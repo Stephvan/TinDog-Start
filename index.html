@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 
+<!-- Make sure your external css style sheet comes last in the order -->
+
 <head>
   <meta charset="utf-8">
   <title>TinDog</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
@@ -15,42 +18,42 @@
 <body>
 
   <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
 
-    <!-- Nav Bar -->
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="">Tindog</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Download</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">tindog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
 
-    <!-- Title -->
-    <div class="row">
-      <div class="col-lg-6">
-        <h1>Meet new and interesting dogs nearby.</h1>
-        <button type="button">Download</button>
-        <button type="button">Download</button>
-      </div>
-      <div class="col-lg-6">
-        <img src="images/iphone6.png" alt="iphone-mockup">
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-btn"><i class="fab fa-google-play"></i></i> Download</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-img" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
       </div>
     </div>
-
   </section>
 
 
@@ -136,8 +139,8 @@
   <section id="cta">
 
     <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <button type="button" class="btn btn-dark">Dark>Download</button>
+    <button type="button" class="btn btn-light">Dark>Download</button>
 
   </section>
 
