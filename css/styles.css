@@ -18,6 +18,21 @@ h1 {
   line-height: 1.5;
 }
 
+h3 {
+  font-family: "Montserrat-Bold"
+
+}
+
+/*Feature section class */
+
+.feature h3 {
+  font-family: "Montserrat-Bold";
+}
+
+.feature p {
+  color: #8f8f8f
+}
+
 /* Navigation Bar */
 
 .navbar {
